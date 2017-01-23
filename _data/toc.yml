@@ -3,10 +3,10 @@ entries:
 
    pages:
 
-   - title: Bootstrap your project
+   - title: Hello World mobile app
      url: installation.html
 
-   - title: Code your Front-Side
+   - title: Hello World web app
      url: installation.html#choose-mobile-or-web-app
 
    - title: Code your Server-Side
