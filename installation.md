@@ -124,12 +124,15 @@ I create a `Superhero` dataclass, add the attribute `name` to it and save.
 I add a second dataclass `Movie` linked to `Superhero` dataclass
 
 1 - I create the second class `Movie`
+
 <img src="img/model-designer-addDataclass-2.png" />
 
 2 - I add an attribute called `superhero` that has as type a collection of `Superhero`
+
 <img src="img/model-designer-addrelationship.png" />
 
 3 - The link is shown on the screen
+
 <img src="img/model-designer-addrelationship-2.png" />
 
 ### Populate your database
