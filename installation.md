@@ -123,10 +123,10 @@ I create a `Superhero` dataclass, add the attribute `name` to it and save.
 
 I add a second dataclass `Movie` linked to `Superhero` dataclass
 
-<img src="img/model-designer-addDataclass#2.png" />
+<img src="img/model-designer-addDataclass-2.png" />
 
 <img src="img/model-designer-addrelationship.png" />
-<img src="img/model-designer-addrelationship#2.png" />
+<img src="img/model-designer-addrelationship-2.png" />
 
 ### Populate your database
 Now you can create a JS file to populate your database, and add `batman` to your `Superhero` dataclass
