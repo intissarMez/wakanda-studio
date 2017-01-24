@@ -97,6 +97,7 @@ Open the _Run_ dropdown and select the device to run on:
 
 ## Edit your data Visually
 
+
 Now, let's make our HelloWorld app more interesting and add data to it. 
 
 What about saying "Hello !" to your favorite superheros ?
@@ -105,6 +106,7 @@ To manage your data easily and quickly, Wakanda provides a Visual Data Editor:
 
 
 <img src="img/model-designer-open.png" />
+
 
 > **TIPS**:
 > - click on <img class="inline" src="img/explorer-settings-shortcut.png"> to change the view options (the `.waModel` extension is hidden by default)
@@ -118,6 +120,7 @@ Create a `Superhero` dataclass, add the attribute `name` to it and save.
 
 
 <img src="img/model-designer-addattribute.png" />
+
 
 
 **TIPS**:
@@ -140,6 +143,7 @@ I add a second dataclass `Movie` linked to `Superhero` dataclass
 <img src="img/model-designer-addrelationship-2.png" />
 
 ### Populate your database
+
 Now you can create a JS file to populate your database, and add *your top 3 superheros* to your `Superhero` dataclass
 
 <img src="img/model-designer-addJSfile.png" />
@@ -147,7 +151,7 @@ Now you can create a JS file to populate your database, and add *your top 3 supe
 
 <img src="img/model-designer-addcode.png" />
 
-## Display a list of superheros in your App
+## Display the list of your top 3 superheros in your App
 
 
 
