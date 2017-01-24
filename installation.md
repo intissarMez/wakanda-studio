@@ -72,7 +72,8 @@ The preview is automatically reloaded after each saving.
 
 <img src="img/hw-colored-preview.png"/>
 
-You can select "Preview in web browser" if you prefer to see the result in your default browser.  
+> **TIPS**:  
+> - You can select "Preview in web browser" if you prefer to see the result in your default browser.  
 
 <img src="img/hw-final-preview.png"/>
 
@@ -108,10 +109,6 @@ To manage your data easily and quickly, Wakanda provides a Visual Data Editor:
 <img src="img/model-designer-open.png" />
 
 
-> **TIPS**:
-> - click on <img class="inline" src="img/explorer-settings-shortcut.png"> to change the view options (the `.waModel` extension is hidden by default)
-> - click on <img class="inline" src="img/model-designer-shortcut.png"> to quickly access your model
-
 ### Edit you data model
 
 Create a `Superhero` dataclass, add the attribute `name` to it and save.
@@ -123,10 +120,11 @@ Create a `Superhero` dataclass, add the attribute `name` to it and save.
 
 
 
-> **TIPS**:
+> **TIPS**:  
 > - I click on "source" button to see the JSON file generated
 
 <img src="img/model-designer-JSON.png" />
+
 
 I add a second dataclass `Movie` linked to `Superhero` dataclass
 
