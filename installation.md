@@ -123,8 +123,8 @@ Create a `Superhero` dataclass, add the attribute `name` to it and save.
 
 
 
-**TIPS**:
-- I click on "source" button to see the JSON file generated
+> **TIPS**:
+> - I click on "source" button to see the JSON file generated
 
 <img src="img/model-designer-JSON.png" />
 
