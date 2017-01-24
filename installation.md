@@ -31,7 +31,7 @@ The structure of your future projects depends of the template you choose.
 
 You'll always have the same back end strcture, but you can choose to have a web front-end (or not) and/or a mobile front-end.
 
-There, you can name your app (without spaces) and select the Ionic2 blank template.
+There, you can name your app *- without spaces -* and select the **Ionic2 blank template**.
 
 Now, in your **HelloWorld** project, you can find the basic Ionic2 file structure :
 
