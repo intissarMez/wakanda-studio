@@ -16,9 +16,9 @@ Now we can start our **HelloWorld** project.
 ## Choose : mobile or web app ?
 We can choose the kind of app we want to create : mobile, web or both.
 
-Let’s say we want to create an Android app with Ionic2.
+Let’s say we want to create an *Android app with Ionic2*.
 
-To do that, we're going to open the studio, (add studio icon here) and click on "Create a new solution": (entourer le bouton sur l'image)
+To do that, we're going to open the studio, (add studio icon here) and click on **"Create a new solution"**:
 
 <img src="img/hp-initial.png"/>
 
@@ -28,7 +28,9 @@ Which opens the template selection page:
 
 
 The structure of your future projects depends of the template you choose.
+
 You'll always have the same back end strcture, but you can choose to have a web front-end (or not) and/or a mobile front-end.
+
 There, you can name your app (without spaces) and select the Ionic2 blank template.
 
 Now, in your **HelloWorld** project, you can find the basic Ionic2 file structure :
@@ -41,11 +43,10 @@ You have 3 folders at the root of your project:
 - Mobile, where you’ll find all your front-end files  
 - Backend, where you’ll find the settings and permissions on your app and your business logic  
 
-For our “Hello world” we’re going to work first in the mobile folder.
+For our **HelloWorld** we’re going to work first in the `mobile` folder.
 
 
 ## Check for dependencies
-
 For mobile apps, you need to check for any missing dependencies.
 Go in the main menu  (_Help_ > _Wakanda Troubleshooting_) and choose Android.
 
@@ -58,7 +59,7 @@ Here you can see I miss Homebrew, Apache And and Android SDK. All is explained t
 
 Once all your dependencies are checked you can preview your app.
 
-Just click on your project, and then on "Preview".
+Just click on your project, and then on **"Preview"**.
 
 <img src="img/hw-first-preview.png"/>
 
@@ -73,7 +74,7 @@ The preview is automatically reloaded after each saving.
 <img src="img/hw-colored-preview.png"/>
 
 > **TIPS**:  
-> - You can select "Preview in web browser" if you prefer to see the result in your default browser.  
+> - You can select **"Preview in web browser"** if you prefer to see the result in your default browser.  
 
 <img src="img/hw-final-preview.png"/>
 
@@ -99,11 +100,11 @@ Open the _Run_ dropdown and select the device to run on:
 ## Edit your data Visually
 
 
-Now, let's make our HelloWorld app more interesting and add data to it. 
+Now, let's make our **HelloWorld** app more interesting and add data to it. 
 
 What about saying "Hello !" to your favorite superheros ?
 
-To manage your data easily and quickly, Wakanda provides a Visual Data Editor:
+To manage your data easily and quickly, Wakanda provides a **Visual Data Editor**:
 
 
 <img src="img/model-designer-open.png" />
@@ -121,7 +122,7 @@ Create a `Superhero` dataclass, add the attribute `name` to it and save.
 
 
 > **TIPS**:  
-> - I click on "source" button to see the JSON file generated
+> - You can click on "source" button to see the JSON file generated
 
 <img src="img/model-designer-JSON.png" />
 
@@ -136,7 +137,7 @@ I add a second dataclass `Movie` linked to `Superhero` dataclass
 
 <img src="img/model-designer-addrelationship.png" />
 
-3 - The link is shown on the screen
+3 - The link is automatically displayed in the model
 
 <img src="img/model-designer-addrelationship-2.png" />
 
