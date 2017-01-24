@@ -118,6 +118,8 @@ Create a `Superhero` dataclass, add the attribute `name` to it and save.
 
 
 <img src="img/model-designer-addattribute.png" />
+
+
 **TIPS**:
 - I click on "source" button to see the JSON file generated
 
