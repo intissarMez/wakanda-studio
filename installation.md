@@ -97,7 +97,9 @@ Open the _Run_ dropdown and select the device to run on:
 
 ## Edit your data Visually
 
-Now, let's make our HelloWorld app more interesting and add data to it. What about saying "Hello !" to your favorite superheros ?
+Now, let's make our HelloWorld app more interesting and add data to it. 
+
+What about saying "Hello !" to your favorite superheros ?
 
 To manage your data easily and quickly, Wakanda provides a Visual Data Editor:
 
