@@ -97,7 +97,7 @@ Open the _Run_ dropdown and select the device to run on:
 
 ## Edit your data Visually
 
-Now let's make our HelloWorld app more intersting and add data to it. WHat about saying "Hello !" to our favorite superheros ?
+Now, let's make our HelloWorld app more interesting and add data to it. What about saying "Hello !" to your favorite superheros ?
 
 To manage your data easily and quickly, Wakanda provides a Visual Data Editor:
 
@@ -110,7 +110,7 @@ To manage your data easily and quickly, Wakanda provides a Visual Data Editor:
 
 ### Edit you data model
 
-I create a `Superhero` dataclass, add the attribute `name` to it and save.
+Create a `Superhero` dataclass, add the attribute `name` to it and save.
 
 <img src="img/model-designer-newdataclass.png" />
 
@@ -127,7 +127,7 @@ I add a second dataclass `Movie` linked to `Superhero` dataclass
 
 <img src="img/model-designer-addDataclass-2.png" />
 
-2 - I add an attribute called `superhero` that has as type a collection of `Superhero`
+2 - I add an attribute called `superhero` that has, as type, a collection of `Superhero`
 
 <img src="img/model-designer-addrelationship.png" />
 
@@ -136,7 +136,7 @@ I add a second dataclass `Movie` linked to `Superhero` dataclass
 <img src="img/model-designer-addrelationship-2.png" />
 
 ### Populate your database
-Now you can create a JS file to populate your database, and add `batman` to your `Superhero` dataclass
+Now you can create a JS file to populate your database, and add *your top 3 superheros* to your `Superhero` dataclass
 
 <img src="img/model-designer-addJSfile.png" />
 
