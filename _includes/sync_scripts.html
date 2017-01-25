@@ -19,6 +19,7 @@ inputSelector: '#search'
 				var aChild = aChildren[i];
 				var ahref = $(aChild).attr('href');
 				aArray.push(ahref);
+				console.log(ahref);
 			} // this for loop fills the aArray with attribute href values
 			$(window).scroll(function(){
 				var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
@@ -45,6 +46,4 @@ inputSelector: '#search'
 				}
 			});
 		});
-
-
-		</script>
+</script>
