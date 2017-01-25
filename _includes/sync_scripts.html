@@ -37,13 +37,7 @@ inputSelector: '#search'
 					}
 				}
 				
-				if(windowPos + windowHeight == docHeight) {
-					if (!$(".navbar .nav li:last-child a").hasClass("nav-active")) {
-						var navActiveCurrent = $(".nav-active").attr("href");
-						$(".navbar .nav a[href='" + navActiveCurrent + "']").removeClass("nav-active");
-						$(".navbar .nav li:last-child a").addClass("nav-active");
-					}
-				}
+			
 			});
 		});
 </script>
