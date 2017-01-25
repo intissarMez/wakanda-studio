@@ -32,12 +32,12 @@ inputSelector: '#search'
 					if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
 						$(".subnavbar  a[href='" + theID + "']").addClass("nav-active");
 					} else {
-						$(".subnavbar ul.nav a[href='" + theID + "']").removeClass("nav-active");
+						$(".subnavbar  a[href='" + theID + "']").removeClass("nav-active");
 					}
 				}
 				
 				if(windowPos + windowHeight == docHeight) {
-					if (!$(".subnavbar ul.nav li:last-child a").hasClass("nav-active")) {
+					if (!$(".subnavbar  li:last-child a").hasClass("nav-active")) {
 						var navActiveCurrent = $(".nav-active").attr("href");
 						$(".subnavbar a[href='" + navActiveCurrent + "']").removeClass("nav-active");
 						$(".subnavbar  li:last-child a").addClass("nav-active");
