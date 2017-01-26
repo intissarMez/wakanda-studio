@@ -37,14 +37,15 @@ Now, in your **HelloWorld** project, you can find the basic Ionic2 file structur
 
 <img src="img/hw-file-structure.png"/>  
 
-You have 4 folders at the root of your project:
+You have 3 folders at the root of your project:
 
 - Backend: Wakanda JavaScript Server. It contains all the Server files to logs, settings, permissions.  
 - Database: Wakanda DB folder. It contains your data model(s), backups and your data.
 - Mobile, where you’ll find all your front-end files to develop and build your mobile app. It contains all you need to code your Ionic 1 or 2 projects.
-- Web, where you’ll find all your front-end files to develop and build your web app. It contains all you need to code your Angular 1 or 2 projects.
 
-**Note** : "prototyper" folder in the Web Project is a prototyper tool to create quickly Web UI based on widgets architecture. But it is deprecated and will be excluded from the platform in our next major release!
+> **TIPS**:  
+> -If you choose both a mobile and web template, you have both a mobile and a web front-end file, for the same back-end.
+
 
 For our **HelloWorld** we’re going to work first in the `mobile` folder.
 
