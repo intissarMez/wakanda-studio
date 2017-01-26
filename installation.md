@@ -114,7 +114,7 @@ What about saying "Hello !" to your favorite superheros ?
 To manage your data easily and quickly, Wakanda provides a **Visual Data Editor**:
 
 
-<img src="img/hw-acess-data-model.png" />
+<img src="img/hw-access-data-model.png" />
 
 
 ### Edit you data model
