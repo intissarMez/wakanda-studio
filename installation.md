@@ -154,7 +154,56 @@ Now you can create a JS file to populate your database, and add *your top 3 supe
 
 <img src="img/model-designer-addcode.png" />
 
-## Display the list of your top 3 superheros in your App
+## Display the list of your top 3 superheros in your App via AngularJS, Ionic and Cordova
+
+Wakanda provides a client connector to have a full integration of the backend to frontend. Let's see how we display your backend data directly and easily to your frontend.
+
+1 - Open Mobile folder
+
+<img src="img/mobile-front-gotomobilefolder.png" />
+
+2 - Go to AngularJS forlder and open home.js to create the controller
+
+<img src="img/mobile-front-gotohomejs.png" />
+
+3 - Add the following code to get the Datamodel and start manipulating the data.
+
+```javascript
+      ds.SuperHero.$query().$promise.then(function(event) {
+         $scope.superheros = event.result;
+       });
+```
+<img src="img/mobile-front-getdatamodel.png" />
+
+4 - Open index.html to display the data and customize it
+
+<img src="img/mobile-front-openindex.png" />
+
+5 - Add the following Ionic code to display the list
+
+```javascript
+    <ion-list>
+  			<ion-item ng-repeat="superhero in superheros">
+   				{{superhero.name}}
+  			</ion-item>
+		</ion-list>
+```
+
+<img src="img/mobile-front-addioniclist.png" />
+
+6 - Preview: click on "Preview" button
+
+<img src="img/mobile-front-preview.png" />
+
+7 - Display the result on iOS and Android simulators
+
+<img src="img/mobile-front-displaypreview.png" />
+
+8 - Build your app in Android to install it on your phone
+
+<img src="img/mobile-front-buildapp.png" />
+
+<img src="img/mobile-front-viewapk.png" />
 
 
 
