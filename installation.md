@@ -115,7 +115,7 @@ To manage your data easily and quickly, Wakanda provides a **Visual Data Editor*
 
 ### Edit you data model
 
-Create a `Superhero` dataclass, add the attribute `name` to it and save.
+First, create a `Superhero` dataclass, add the attribute `name` to it and save.
 
 <img src="img/model-designer-newdataclass.png" />
 
@@ -130,13 +130,13 @@ Create a `Superhero` dataclass, add the attribute `name` to it and save.
 <img src="img/model-designer-JSON.png" />
 
 
-I add a second dataclass `Movie` linked to `Superhero` dataclass
+Then add a second dataclass `Movie` linked to `Superhero` dataclass :
 
-1 - I create the second class `Movie`
+1 - Create the second class `Movie`
 
 <img src="img/model-designer-addDataclass-2.png" />
 
-2 - I add an attribute called `superhero` that has, as type, a collection of `Superhero`
+2 - Add an attribute called `superhero` that has, as type, a collection of `Superhero`
 
 <img src="img/model-designer-addrelationship.png" />
 
