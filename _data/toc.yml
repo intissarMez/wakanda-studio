@@ -7,7 +7,7 @@ entries:
      url: installation.html
 
    - title: Hello World web app
-     url: installation.html#choose-mobile-or-web-app
+     url: create-web-app.html
 
    - title: Code your Server-Side
      url: installation.html#server-side

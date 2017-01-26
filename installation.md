@@ -191,17 +191,12 @@ Wakanda provides a client connector to have a full integration of the backend to
 
 <img src="img/mobile-front-addioniclist.png" />
 
-6 - Preview: click on "Preview" button
 
-<img src="img/mobile-front-preview.png" />
-
-7 - Display the result on iOS and Android simulators
+6 - Display the result on iOS and Android simulators
 
 <img src="img/mobile-front-displaypreview.png" />
 
-8 - Build your app in Android to install it on your phone
-
-<img src="img/mobile-front-buildapp.png" />
+7 - Build your app in Android to install it on your phone
 
 <img src="img/mobile-front-viewapk.png" />
 
