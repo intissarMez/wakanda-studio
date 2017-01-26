@@ -44,7 +44,7 @@ You have 3 folders at the root of your project:
 - Mobile, where you’ll find all your front-end files to develop and build your mobile app. It contains all you need to code your Ionic 1 or 2 projects.
 
 > **TIPS**:  
-> -If you choose both a mobile and web template, you have both a mobile and a web front-end file, for the same back-end.
+> - If you choose both a mobile and web template, you have both a mobile and a web front-end file, for the same back-end.
 
 
 For our **HelloWorld** we’re going to work first in the `mobile` folder.
