@@ -161,15 +161,15 @@ Now you can create a JS file to populate your database, and add *your top 3 supe
 
 Wakanda's client connector provides a full integration of the backend to the frontend. Let's see how you can display your backend data directly and easily to your frontend.
 
-1 - Open Mobile folder
 
-<img src="img/mobile-front-gotomobilefolder.png" />
+1 - First we're going to create the controller.
 
-2 - Go to AngularJS forlder and open home.js to create the controller
+In the project's file structure, go to the `mobile/www/js/controllers` folder and open `home.js`file
+
 
 <img src="img/mobile-front-gotohomejs.png" />
 
-3 - Add the following code to get the Datamodel and start manipulating the data.
+2 - Add the following code there to get the Datamodel and start manipulating the data.
 
 ```javascript
       ds.SuperHero.$query().$promise.then(function(event) {
@@ -178,11 +178,11 @@ Wakanda's client connector provides a full integration of the backend to the fro
 ```
 <img src="img/mobile-front-getdatamodel.png" />
 
-4 - Open index.html to display the data and customize it
+3 - Open index.html to display the data and customize it
 
 <img src="img/mobile-front-openindex.png" />
 
-5 - Add the following Ionic code to display the list
+4 - Add the following Ionic code to display the list
 
 ```javascript
     <ion-list>
@@ -195,11 +195,11 @@ Wakanda's client connector provides a full integration of the backend to the fro
 <img src="img/mobile-front-addioniclist.png" />
 
 
-6 - Display the result on iOS and Android simulators
+5 - Display the result on iOS and Android simulators
 
 <img src="img/mobile-front-displaypreview.png" />
 
-7 - Build your app in Android to install it on your phone
+6 - Build your app in Android to install it on your phone
 
 <img src="img/mobile-front-viewapk.png" />
 
