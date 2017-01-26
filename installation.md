@@ -51,6 +51,9 @@ For our **HelloWorld** we’re going to work first in the `mobile` folder.
 
 
 ## Check for dependencies
+
+Mobile apps are based on **AngularJS**, **Ionic** and **Cordova**.
+
 For mobile apps, you need to check for any missing dependencies.
 Go in the main menu  (_Help_ > _Wakanda Troubleshooting_) and choose Android.
 
