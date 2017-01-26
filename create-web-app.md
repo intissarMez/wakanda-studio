@@ -11,7 +11,7 @@ First, download and install **Wakanda Community Edition**
 - On Mac OS X, [x64](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x64.dmg "download")
 
 
-Now we can start our **HelloWorld** project.  
+Now we can start our **HelloWorldWeb** project.  
 
 ## Choose : mobile or web app ?
 We can choose the kind of app we want to create : mobile, web or both.
