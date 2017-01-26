@@ -33,38 +33,35 @@ You'll always have the **same back end strcture**, but you can choose to have a 
 
 There, you can name your app *- without spaces -* and select the **Angular2 webpack template**.
 
-Now, in your **HelloWorld** project, you can find the Angular2 web app file structure :
+Now, in your **HelloWorldWeb** project, you can find the Angular2 web app file structure :
 
-<img src="img/hw-file-structure.png"/>  
+<img src="img/hww-file-structure.png"/>  
 
-You have 4 folders at the root of your project:
+You have 3 folders at the root of your project:
 
 - Backend: Wakanda JavaScript Server. It contains all the Server files to logs, settings, permissions.  
 - Database: Wakanda DB folder. It contains your data model(s), backups and your data.
-- Mobile, where you’ll find all your front-end files to develop and build your mobile app. It contains all you need to code your Ionic 1 or 2 projects.
-- Web, where you’ll find all your front-end files to develop and build your web app. It contains all you need to code your Angular 1 or 2 projects.
+- Web: where you’ll find all your web app front-end files. It contains all you need to code your Angular 1 or 2 projects.
+
+**Tips** : If you choose web and mobile in the template selection, you'll have both a `mobile` and a `web`folder.
+A mobile and a web front-end, for the same back-end.
+
 
 **Note** : "prototyper" folder in the Web Project is a prototyper tool to create quickly Web UI based on widgets architecture. But it is deprecated and will be excluded from the platform in our next major release!
 
-For our **HelloWorld** we’re going to work first in the `mobile` folder.
+For our **HelloWorldWeb** we’re going to work first in the `web` folder.
 
 
-## Table of contents
+## Run your web application
 
-- [Run your web application](#run-your-web-application)
-- [Customize the panels](#customize-the-panels)
-- [Enable live reload](#enable-live-reload)
-- [Code your Angular application](#code-your-angular-application)
-
-## 1 - Run your web application
+First let's have a look to our web template.
 
 Click on the _Run Page_ toolbar button:
 
 <img src="img/web-run-page.png"/>
 
-[Activate live reload](installation.html#increase-your-productivity) to reload automatically the page after any file changes occur.
 
-## 2 - Customize the panels
+**Tips** - Customize the panels
 
 Open the right panel from the toolbar toggles:
 
@@ -78,7 +75,7 @@ To open your application in your default browser, set this preference via _Run P
 
 <img src="img/web-run-dropdown.png" />
 
-## 4 - Code your Angular application
+## Code your Angular application
 
 <img src="http://wakanda.github.io/angular-wakanda/images/angular-wakanda.png" />
 
@@ -88,7 +85,4 @@ Wakanda integrates the Angular framework.
 
 ---
 
-You can also create a mobile version of your application, based on the same backend.
-
-[Create the mobile version »](create-mobile-app.html){:class="btn"}
 
