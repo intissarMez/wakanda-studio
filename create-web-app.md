@@ -39,9 +39,9 @@ Now, in your **HelloWorldWeb** project, you can find the Angular2 web app file s
 
 You have 3 folders at the root of your project:
 
-- Backend: Wakanda JavaScript Server. It contains all the Server files to logs, settings, permissions.  
-- Database: Wakanda DB folder. It contains your data model(s), backups and your data.
-- Web: where you’ll find all your web app front-end files. It contains all you need to code your Angular 1 or 2 projects.
+- **Backend**: Wakanda JavaScript Server. It contains all the Server files to logs, settings, permissions.  
+- **Database**: Wakanda DB folder. It contains your data model(s), backups and your data.
+- **Web**: where you’ll find all your web app front-end files. It contains all you need to code your Angular 1 or 2 projects.
 
 **Tips** : If you choose web and mobile in the template selection, you'll have both a `mobile` and a `web`folder.
 A mobile and a web front-end, for the same back-end.
