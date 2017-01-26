@@ -29,7 +29,7 @@ Which opens the template selection page:
 
 The structure of your future projects depends of the template you choose.
 
-You'll always have the **same back end strcture**, but you can choose to have a **web front-end and/or mobile front-end**.
+You'll always have the **same back-end structure**, but you can choose to have a **web front-end and/or mobile front-end**.
 
 There, you can name your app *- without spaces -* and select the **Ionic2 blank template**.
 
