@@ -43,8 +43,9 @@ You have 3 folders at the root of your project:
 - **Database**: Wakanda DB folder. It contains your data model(s), backups and your data.
 - **Web**: where you’ll find all your web app front-end files. It contains all you need to code your Angular 1 or 2 projects.
 
-**Tips** : If you choose web and mobile in the template selection, you'll have both a `mobile` and a `web`folder.
-A mobile and a web front-end, for the same back-end.
+> **TIPS**:  
+> - If you choose web and mobile in the template selection, you'll have both a `mobile` and a `web`folder.
+> - A mobile and a web front-end, for the same back-end.
 
 
 **Note** : "prototyper" folder in the Web Project is a prototyper tool to create quickly Web UI based on widgets architecture. But it is deprecated and will be excluded from the platform in our next major release!
@@ -61,25 +62,27 @@ Click on the _Run Page_ toolbar button:
 <img src="img/web-run-page.png"/>
 
 
-**Tips** - Customize the panels
+> **TIPS**:  
+> -  Customize the panels
 
-Open the right panel from the toolbar toggles:
+> - Open the right panel from the toolbar toggles:
 
 <img src="img/panel-toggles.png" />
 
-You can move the web preview on the right panel:
+> - You can move the web preview on the right panel:
 
 <img src="img/web-app-creation.png" />
 
-To open your application in your default browser, set this preference via _Run Page_ dropdown:
+> - To open your application in your default browser, set this preference via _Run Page_ dropdown:
 
 <img src="img/web-run-dropdown.png" />
 
-## Code your Angular application
+
+## Code your Angularb2 application
 
 <img src="http://wakanda.github.io/angular-wakanda/images/angular-wakanda.png" />
 
-Wakanda integrates the Angular framework.
+Wakanda integrates the Angular2 framework.
 
 [Learn more »](http://wakanda.github.io/angular-wakanda/){:target="_blank"}{:class="btn"}
 
