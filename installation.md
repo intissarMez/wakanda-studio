@@ -1,7 +1,7 @@
 ---
 ---
 
-# Hello World: your first Mobile Web App
+# Hello World: your first Mobile hybrid App
 
 ## Install Wakanda
 
