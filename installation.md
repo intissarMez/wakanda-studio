@@ -183,9 +183,9 @@ Wakanda provides a client connector to have a full integration of the backend to
 
 ```javascript
     <ion-list>
-  			<ion-item ng-repeat="superhero in superheros">
-   				{{superhero.name}}
-  			</ion-item>
+  		<ion-item ng-repeat="superhero in superheros">
+   			{{superhero.name}}
+  		</ion-item>
 		</ion-list>
 ```
 
