@@ -147,7 +147,7 @@ Then add a second dataclass `Movie` linked to `Superhero` dataclass :
 
 ### Populate your database
 
-Now you can create a JS file to populate your database, and add *your top 3 superheros* to your `Superhero` dataclass
+Now you can create a JS file to populate your database, and add *your top 3 superheros* to your `SuperHero` dataclass
 
 <img src="img/model-designer-addJSfile.png" />
 
