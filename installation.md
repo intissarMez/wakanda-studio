@@ -156,7 +156,7 @@ Now you can create a JS file to populate your database, and add *your top 3 supe
 
 ## Display the list of your top 3 superheros in your App via AngularJS, Ionic and Cordova
 
-Wakanda provides a client connector to have a full integration of the backend to frontend. Let's see how we display your backend data directly and easily to your frontend.
+Wakanda's client connector provides a full integration of the backend to the frontend. Let's see how you can display your backend data directly and easily to your frontend.
 
 1 - Open Mobile folder
 
