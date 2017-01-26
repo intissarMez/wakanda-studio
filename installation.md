@@ -18,7 +18,7 @@ We can choose the kind of app we want to create : mobile, web or both.
 
 Let’s say we want to create an *Android app with Ionic2*.
 
-To do that, we're going to open the studio, (add studio icon here) and click on **"Create a new solution"**:
+To do that, we're going to launch the studio <img src="img/iconWakanda.png"/> and click on **"Create a new solution"**:
 
 <img src="img/hp-initial.png"/>
 
