@@ -3,7 +3,7 @@
 
 # Hello World: your first Mobile hybrid App
 
-## Install Wakanda
+## Step 1: Install Wakanda
 
 First, download and install **Wakanda Community Edition**
 
@@ -13,7 +13,7 @@ First, download and install **Wakanda Community Edition**
 
 Now we can start our **HelloWorld** project.  
 
-## Choose : mobile or web app ?
+## Step 2: Choose : mobile or web app ?
 We can choose the kind of app we want to create : mobile, web or both.
 
 Let’s say we want to create an *Android app with Ionic2*.
@@ -50,7 +50,7 @@ You have 3 folders at the root of your project:
 For our **HelloWorld** we’re going to work first in the `mobile` folder.
 
 
-## Check for dependencies
+## Step 3: Check for dependencies
 
 Mobile apps are based on **AngularJS**, **Ionic** and **Cordova**.
 
@@ -62,7 +62,7 @@ Go in the main menu  (_Help_ > _Wakanda Troubleshooting_) and choose Android.
 Here you can see I miss Homebrew, Apache And and Android SDK. All is explained there: why I need them, and how to install them.
 
 
-## Code and preview  
+## Step 4: Code and preview  
 
 Once all your dependencies are checked you can preview your app.
 
@@ -71,11 +71,16 @@ Just click on your project, and then on **"Preview"**.
 <img src="img/hw-first-preview.png"/>
 
 
-Let's have a look to our project structure : the src folder is the classical [ionic2 project structure](http://ionicframework.com/docs/v2/setup/tutorial/project-structure/ "ionic tutorial").
+Let's have a look to our project structure : the src folder is the classical ionic2 project structure. [More info here](http://ionicframework.com/docs/v2/setup/tutorial/project-structure/ "ionic tutorial").
 
-A simple change in `pages/home.html` and I have my **HelloWorld** done.
+A simple change in `mobile/src/pages/home.html` and I have my **HelloWorld** done.
 
-You can change the background color in `pages/home.css` to make it more visual.
+To make it more visual, you can change the home page background color in its scss file `mobile/src/pages/home.scss` by adding:
+
+`.scroll-content {
+  background-color:#f0f8ff
+}`
+
 The preview is automatically reloaded after each saving.
 
 <img src="img/hw-colored-preview.png"/>
@@ -86,7 +91,7 @@ The preview is automatically reloaded after each saving.
 <img src="img/hw-final-preview.png"/>
 
 
-## Run on emulator  
+## Step 5: Run on emulator  
 
 Now you can run your app on the [Android emulator](https://developer.android.com/studio/run/emulator.html "check documentation").
 
@@ -94,7 +99,7 @@ Now you can run your app on the [Android emulator](https://developer.android.com
 
 <img src="img/hw-emulator-view.png"/>
 
-## Run on device  
+## Step 6: Run on device  
 
 
 Make sure you have [USB debugging enabled](http://developer.android.com/tools/device.html).
