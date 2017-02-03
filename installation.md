@@ -77,9 +77,11 @@ A simple change in `mobile/src/pages/home.html` and I have my **HelloWorld** don
 
 To make it more visual, you can change the home page background color in its scss file `mobile/src/pages/home.scss` by adding:
 
-`.scroll-content {
+```css
+.scroll-content {
   background-color:#f0f8ff
-}`
+} 
+```
 
 The preview is automatically reloaded after each saving.
 
@@ -151,9 +153,11 @@ Create a JS file `addSuperHeros.js`to populate your database (_File_ > _New_ > J
  
 Then, create a constructor to add your top 3 `Superhero` in the the built-in database (the `ds`object)
 
-`var favoriteSuperhero = new ds.Superhero({name:"Batman"});
+```javascript
+var favoriteSuperhero = new ds.Superhero({name:"Batman"});
 
-favoriteSuperhero.save();`
+favoriteSuperhero.save();
+```
 
 <img src="img/model-designer-addcode.png" />
 
