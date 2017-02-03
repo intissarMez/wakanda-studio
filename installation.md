@@ -39,9 +39,9 @@ Now, in your **HelloWorld** project, you can find the basic Ionic2 file structur
 
 You have 3 folders at the root of your project:
 
-- Backend: Wakanda JavaScript Server. It contains all the Server files to logs, settings, permissions.  
-- Database: Wakanda DB folder. It contains your data model(s), backups and your data.
-- Mobile, where you’ll find all your front-end files to develop and build your mobile app. It contains all you need to code your Ionic 1 or 2 projects.
+- **Backend:** Wakanda JavaScript Server. It contains all the Server files to logs, settings, permissions.  
+- **Database:** Wakanda DB folder. It contains your data model(s), backups and your data.
+- **Mobile:** where you’ll find all your front-end files to develop and build your mobile app. It contains all you need to code your Ionic 1 or 2 projects.
 
 > **TIPS**:  
 > - If you choose both a mobile and web template, you have both a mobile and a web front-end file, for the same back-end.
@@ -109,56 +109,51 @@ Open the _Run_ dropdown and select the device to run on:
 
 <img src="img/mobile-run-devices.png" />
 
-## Edit your data Visually
+## Populate the built-in DataBase
+
+Now, let's make our **HelloWorld** app more interesting by accessing datas from the built-in DB.
+
+What about saying "Hello !" to your favorite superheros ? Let's populate the database with them.
 
 
-Now, let's make our **HelloWorld** app more interesting and add data to it.
 
-What about saying "Hello !" to your favorite superheros ?
+## Step 1: Edit you data model Visually
+
+First, we're going to create our datamodel.
 
 To manage your data easily and quickly, Wakanda provides a **Visual Data Editor**:
 
-
 <img src="img/hw-access-data-model.png" />
 
-
-### Edit you data model
-
-First, create a `Superhero` dataclass, add the attribute `name` to it and save.
+1 - Create a `Superhero` dataclass, give it the attribute `name` and save.
 
 <img src="img/model-designer-newdataclass.png" />
 
 
 <img src="img/model-designer-addattribute.png" />
 
-
+The corresponding JSON file is automatically generated, and updated each time you save.
 
 > **TIPS**:  
 > - You can click on "source" button to see the JSON file generated
 
 <img src="img/model-designer-JSON.png" />
 
+2 - Create a second class `Movie`, give it the attribute `superheros` of type `SuperheroCollection`
 
-Then add a second dataclass `Movie` linked to `Superhero` dataclass :
-
-1 - Create the second class `Movie`
-
-<img src="img/model-designer-addDataclass-2.png" />
-
-2 - Add an attribute called `superhero` that has, as type, a collection of `Superhero`
-
-<img src="img/model-designer-addrelationship.png" />
-
-3 - The link is automatically displayed in the model
+The link is automatically displayed in the model
 
 <img src="img/model-designer-addrelationship-2.png" />
 
 ### Populate your database
 
-Now you can create a JS file to populate your database, and add *your top 3 superheros* to your `SuperHero` dataclass
+Create a JS file `addSuperHeros.js`to populate your database (_File_ > _New_ > JS File).
+ 
+Then, create a constructor to add your top 3 `Superhero` in the the built-in database (the `ds`object)
 
-<img src="img/model-designer-addJSfile.png" />
+`var favoriteSuperhero = new ds.Superhero({name:"Batman"});
 
+favoriteSuperhero.save();`
 
 <img src="img/model-designer-addcode.png" />
 
