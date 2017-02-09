@@ -123,18 +123,19 @@ What about saying "Hello !" to your favorite superheros ? Let's populate the dat
 
 First, we're going to create our datamodel.
 
-To manage your data easily and quickly, Wakanda provides a **Visual Data Editor**:
+To manage your data easily and quickly, Wakanda provides a **Visual Data Editor**. 
+It will allow you to create your classes, and their properties visually.
 
 <img src="img/hw-access-data-model.png" />
 
-1 - Create a `Superhero` dataclass, give it the attribute `name` and save.
+1 - Create a `Superhero` dataclass, give it the attribute `name` of type `string` and save.
 
 <img src="img/model-designer-newdataclass.png" />
 
 
 <img src="img/model-designer-addattribute.png" />
 
-The corresponding JSON file is automatically generated, and updated each time you save.
+A corresponding JSON file is automatically generated, and updated each time you save.
 
 > **TIPS**:  
 > - You can click on "source" button to see the JSON file generated
@@ -147,19 +148,23 @@ The link is automatically displayed in the model
 
 <img src="img/model-designer-addrelationship-2.png" />
 
-### Populate your database
+### Step 2 : Generate data
 
 Create a JS file `addSuperHeros.js`to populate your database (_File_ > _New_ > JS File).
  
-Then, create a constructor to add your top 3 `Superhero` in the the built-in database (the `ds`object)
+Then, use the generated constructor `Superhero`to add your top 3 `Superhero` in the the built-in database (`ds`for datastore).
 
 ```javascript
-var favoriteSuperhero = new ds.Superhero({name:"Batman"});
+var favoriteSuperheroes = [];
+favoriteSuperheroes[0]= new ds.Superhero({name:"Batman"});
+favoriteSuperheroes[1]= new ds.Superhero({name:"Wolverine"});
+favoriteSuperheroes[2]= new ds.Superhero({name:"Wonder Woman"});
 
 favoriteSuperhero.save();
 ```
-
-<img src="img/model-designer-addcode.png" />
+> **TIPS**:  
+> - The constructors generated always take an object as argument (and not the attributes values, as a classical JS object constructor).
+> - `save()` is a Wakanda method used to save in the datastore.
 
 ## Display the list of your top 3 superheros in your App via AngularJS, Ionic and Cordova
 
