@@ -175,6 +175,11 @@ Wakanda's client connector provides a full integration of the backend to the fro
 
 In the project's file structure, go to the `mobile/www/js/controllers` folder and open `home.js`file
 
+```javascript
+ds.SuperHero.$query().$promise.then(function(event){
+	$scope.superheroes = event.result;
+});
+```
 
 <img src="img/mobile-front-gotohomejs.png" />
 
