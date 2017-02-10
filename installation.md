@@ -160,7 +160,7 @@ favoriteSuperheroes[0]= new ds.Superhero({name:"Batman"});
 favoriteSuperheroes[1]= new ds.Superhero({name:"Wolverine"});
 favoriteSuperheroes[2]= new ds.Superhero({name:"Wonder Woman"});
 
-favoriteSuperhero.save();
+favoriteSuperheroes.save();
 ```
 > **TIPS**:  
 > - The constructors generated always take an object as argument (and not the attributes values, as a classical JS object constructor).
