@@ -172,6 +172,7 @@ Wakanda's client connector provides a full integration of the backend to the fro
 
 
 1 - Acess the controller
+
 As you can see in `web/index.html`, our blank template application is contained in an AngularJS module called "Starter".
 
 ```html
