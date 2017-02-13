@@ -204,7 +204,7 @@ Open its existing controller file `web/app/controllers/home.js`.
 
 <img src="img/mobile-front-openindex.png" />
 
-4 - Add the following Ionic code to display the list
+4 - Add the following Ionic code into the `<ion-content>` div to display the list
 
 ```html
     <ion-list>
