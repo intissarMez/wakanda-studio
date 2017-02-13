@@ -200,11 +200,9 @@ Open its existing controller file `web/app/controllers/home.js`.
 ```
 <img src="img/mobile-front-getdatamodel.png" />
 
-3 - Open index.html to display the data and customize it
+3 - Open `index.html` to display the data and customize it
 
-<img src="img/mobile-front-openindex.png" />
-
-4 - Add the following Ionic code into the `<ion-content>` element to display the list
+Add the following Ionic code into the `<ion-content>` element to display the list
 
 ```html
     <ion-list>
