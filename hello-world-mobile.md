@@ -211,7 +211,7 @@ Open its existing controller file `web/app/controllers/home.js`.
   		<ion-item ng-repeat="superhero in favoriteSuperheroes">
    			{{superhero.name}}
   		</ion-item>
-		</ion-list>
+	</ion-list>
 ```
 
 <img src="img/mobile-front-addioniclist.png" />
