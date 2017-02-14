@@ -1,6 +1,6 @@
 # Populate the built-in DataBase
 
-Now, let's make our **HelloWorld** app more interesting by accessing datas from the built-in DB.
+Now, let's make our **HelloWorld** apps more interesting by accessing datas from the built-in DB.
 
 What about saying "Hello !" to your favorite superheros ? Let's populate the database with them.
 
