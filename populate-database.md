@@ -35,7 +35,7 @@ The JSON file of your datamodel is automatically updated each time you save.
 
 ## Step 2 : Generate data
 
-Create a JS file `addSuperHeros.js`to populate your database (_File_ > _New_ > JS File).
+Create a JS file `addSuperHeros.js` in the folder `database` to populate your database (Right click on the folder or _File_ > _New_ > JS File).
  
 Then, use the generated constructor `Superhero`to add your top 3 `Superhero` in the the built-in database (`ds`for datastore).
 
