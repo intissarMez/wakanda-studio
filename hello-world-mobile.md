@@ -113,12 +113,12 @@ Open the _Run_ dropdown and select the device to run on:
 
 
 
-## Display the list of your top 3 superheros in your App via AngularJS
+## Display the list of your top 3 superheroes in your web app via AngularJS
 
-Wakanda's client connector provides a full integration of the backend to the frontend. Let's see how you can display your backend data directly and easily to your frontend.
+Wakanda's client connector Angular-Wakanda provides a full integration of the backend to the frontend. Let's see how you can display your backend data directly and easily to your frontend.
 
 
-1 - Acess the controller
+1 - Access the AngularJS module's controller
 
 As you can see in `web/index.html`, our blank template application is contained in an AngularJS module called "Starter".
 
@@ -135,41 +135,32 @@ angular.module('Starter', ['wakanda'])
 ```
 
 Its controllers are in the folder `web/app/controllers`.
-Open its existing controller file `web/app/controllers/home.js`.
+Open its existing controller file `web/app/controllers/home.js`. That's where we're going to access the datastore.
 
+A controller `HomeController`is already created in the template.
+[$wakandaManager](https://wakanda.github.io/angular-wakanda/#/doc/api-reference/wakanda-manager) is a service provided by Wakanda. We're going to use is to access the datastore ds (it's similar to the $http angular service)
 
-2 - Add the following code there to access the Datamodel and start manipulating the data.
+2 - Add the following code in the controller:
 
 ```javascript
-      ds.Superhero.$query().$promise.then(function(event) {
-         $scope.favoriteSuperheroes = event.result;
+      ds.Superhero.$query().$promise.then(function(response) {
+         $scope.favoriteSuperheroes = response.result;
        });
 ```
-<img src="img/mobile-front-getdatamodel.png" />
+Here [$query()](https://wakanda.github.io/angular-wakanda/#/doc/api-reference/dataclass) is an Angular-Wakanda method. 
 
-3 - Open `index.html` to display the data and customize it
 
-Add the following Ionic code into the `<ion-content>` element to display the list
+3 - Open `web/index.html` and add the following code into the body to display the list
+
+
 
 ```html
-    <ion-list>
-  		<ion-item ng-repeat="superhero in favoriteSuperheroes">
-   			{{superhero.name}}
-  		</ion-item>
-	</ion-list>
+  <div class="container" ng-controller="HomeController" >
+           <p ng-repeat= "superhero in favoriteSuperheroes">Hello {{superhero.name}} !</p>
+        </div>
 ```
 
 <img src="img/mobile-front-addioniclist.png" />
-
-
-5 - Display the result on iOS and Android simulators
-
-<img src="img/mobile-front-displaypreview.png" />
-
-6 - Build your app in Android to install it on your phone
-
-<img src="img/mobile-front-viewapk.png" />
-
 
 
 [Getting Started »](index.html){:class="btn"}
