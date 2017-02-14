@@ -15,25 +15,23 @@ It will allow you to create your classes, and their properties visually.
 
 <img src="img/hw-access-data-model.png" />
 
-1 - Create a `Superhero` dataclass, give it the attribute `name` of type `string` and save.
+1 - Create a `Superhero` and a `Movie`dataclasses, give them respectively the attribute `name` and `title` of type `string` and save.
 
 <img src="img/model-designer-newdataclass.png" />
 
 
-<img src="img/model-designer-addattribute.png" />
+2 - Add an attribute `movie` to `Superhero`dataclass and give it the type `Movie`
+The relationship between the two classes is automatically displayed in the model
 
-A corresponding JSON file is automatically generated, and updated each time you save.
+<img src="img/model-designer-addrelationship.png" />
+
+The JSON file of your datamodel is automatically updated each time you save.
+
 
 > **TIPS**:  
 > - You can click on "source" button to see the JSON file generated
 
-<img src="img/model-designer-JSON.png" />
-
-2 - Create a second class `Movie`, give it the attribute `superheros` of type `SuperheroCollection`
-
-The link is automatically displayed in the model
-
-<img src="img/model-designer-addrelationship-2.png" />
+<img src="img/model-designer-json.png" />
 
 ## Step 2 : Generate data
 
