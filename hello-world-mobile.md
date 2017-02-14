@@ -147,7 +147,7 @@ A controller `HomeController`is already created in the template.
          $scope.favoriteSuperheroes = response.result;
        });
 ```
-Here [$query()](https://wakanda.github.io/angular-wakanda/#/doc/api-reference/dataclass) is an Angular-Wakanda method. 
+Here [$query()](https://wakanda.github.io/angular-wakanda/#/doc/api-reference/dataclass) is an Angular-Wakanda method that queries all the Superhero entities saved in the datastore. 
 
 
 3 - Open `web/index.html` and add the following code into the body to display the list
@@ -159,7 +159,6 @@ Here [$query()](https://wakanda.github.io/angular-wakanda/#/doc/api-reference/da
            <p ng-repeat= "superhero in favoriteSuperheroes">Hello {{superhero.name}} !</p>
         </div>
 ```
-
 <img src="img/mobile-front-addioniclist.png" />
 
 
