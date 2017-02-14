@@ -53,6 +53,6 @@ favoriteSuperhero.save();
 > - `save()` is a Wakanda method used to save the JSON corresponding to the object it is applied to in the datastore.
 
 > **Warning**: 
-> - Each time you save an Entity of the same class, a new key and ID is automatically generated in order to keep entities uniqueness.
+> - Each time you save an Entity of the same class, a new key and ID is automatically generated in order to keep entities uniqueness in the datastore.
 
 Now run your file. Your three favorite superheroes are now saved in the datastore !
