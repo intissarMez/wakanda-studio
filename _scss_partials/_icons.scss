@@ -1,0 +1,79 @@
+
+
+@font-face{
+  font-family: 'icomoon';
+  src: 	url("../font/icomoon.eot");
+  src: 	local("icomoon"),
+  			url("../font/icomoon.woff") format("woff"),
+  			url("../font/icomoon.ttf") format("truetype"),  
+            url('../font/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*@include embed-font("icomoon", "font/icomoon");*/
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-2x{
+    @include font-size(24px);
+}
+.icon-3x{
+    @include font-size(28px);
+}
+.icon-4x{
+    @include font-size(32px);
+}
+.icon-5x{
+    @include font-size(48px);
+}
+.icon-6x{
+    @include font-size(56px);
+}
+.icon-7x{
+    @include font-size(64px);
+}
+.icon-8x{
+    @include font-size(72px);
+}
+.icon-8x{
+    @include font-size(80px);
+}
+.icon-circle{
+    border: 1px solid;
+    @include border-radius(50%);
+    &.icon-7x{
+        border: 3px solid;
+        padding: 10px;
+    }
+}
+
+
+
+.icon-angular:before {
+  content: "\e902";
+}
+.icon-ionic:before {
+  content: "\e905";
+}
+.icon-map-marker:before {
+  content: "\e906";
+}
+.icon-chevron-right:before {
+  content: "\e900";
+}
+.icon-chevron-left:before {
+  content: "\e901";
+}
+

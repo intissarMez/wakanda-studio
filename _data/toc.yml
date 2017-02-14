@@ -1,0 +1,26 @@
+entries:
+ - title: Getting Started
+
+   pages:
+
+   - title: Hello World mobile app
+     url: installation.html
+
+   - title: Hello World web app
+     url: create-web-app.html
+
+   - title: Code your Server-Side
+     url: installation.html#server-side
+
+   - title: Deploy & Run
+     url: installation.html#run-on-emulator
+
+ - title: Go further
+
+   pages:
+   - title: Deploy to the Wakanda Cloud
+     url: http://docs.wakcloud.com/en/latest/
+   - title: Connect to MySQL DB
+     url: design-data-model.html
+   - title: Build scalable App
+     url: http://wakanda.github.io/wakanda-server-doc/#/doc/authentication/custom-session-management
