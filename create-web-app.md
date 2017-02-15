@@ -82,17 +82,18 @@ Let's have a look to our project structure : the src folder is the classical Ang
 
 A simple change in `web/src/app/app.component.html` and I have my **HelloWorld** done.
 
-To make it more visual, you can change the header background color in its scss file `web/src/app/appcomponent.scss` by adding:
+To make it more visual, you can change the background color in its scss file `web/src/app.scss`:
 
 ```css
-header{
-  background-color:#f0f8ff
+body{
+  background:#51D8C6
+  color:#fff;
 } 
 ```
 
 The preview is automatically reloaded after each saving.
 
-<img src="img/hw-colored-preview.png"/>
+<img src="img/hww-run-helloworld.png"/>
 
 <img src="http://wakanda.github.io/angular-wakanda/images/angular-wakanda.png" />
 
