@@ -1,6 +1,8 @@
-# Display the list of your top 3 superheroes in your web app via AngularJS
+# Display the list of your data in your web app via AngularJS
 
-Wakanda's client connector Angular-Wakanda provides a full integration of the backend to the frontend. Let's see how you can display your backend data directly and easily to your frontend.
+Wakanda's client connector Angular-Wakanda provides a full integration of the backend to the frontend. 
+
+Let's see how you can display the superheroes your created in your backend to your frontend.
 
 
 ## 1 - Access the AngularJS module's controller
@@ -30,11 +32,11 @@ A controller `HomeController`is already created in the template.
 Add the following code in the controller:
 
 ```javascript
-      ds.Superhero.$query({orderBy:ID,pageSize:3}).$promise.then(function(response) {
+      ds.Superhero.$query({orderBy:"ID desc",pageSize:3}).$promise.then(function(response) {
          $scope.favoriteSuperheroes = response.result;
        });
 ```
-Here [$query()](https://wakanda.github.io/angular-wakanda/#/doc/api-reference/dataclass) is an Angular-Wakanda method that queries all the Superhero entities saved in the datastore. 
+Here [$query()](https://wakanda.github.io/angular-wakanda/#/doc/api-reference/dataclass) is an Angular-Wakanda method that queries all the Superhero entities saved in the datastore. Here I used it to retrieve only the last 3 superheroes created. 
 
 
 ## 3 - Display the datas in your front
@@ -46,4 +48,4 @@ Open `web/index.html` and add the following code into the body to display the li
            <p ng-repeat= "superhero in favoriteSuperheroes">Hello {{superhero.name}} !</p>
         </div>
 ```
-<img src="img/mobile-front-addioniclist.png" />
+<img src="img/display-data-final.png" />
