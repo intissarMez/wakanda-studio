@@ -23,11 +23,13 @@ It will allow you to create your classes, and their properties visually.
 
 Give them respectively the attribute `name` and `title` of type `string` and save.
 
-<img src="img/model-designer-newdataclass.png" />
+<img src="img/model-designer-newdataclass1.png" />
 
 
 2 - Add an attribute `movie` to `Superhero`dataclass and give it the type `Movie`.
 The relationship between the two classes is automatically displayed in the model
+
+<img src="img/model-designer-newdataclass.png" />
 
 <img src="img/model-designer-addrelationship.png" />
 
