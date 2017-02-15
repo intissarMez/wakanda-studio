@@ -64,3 +64,5 @@ favoriteSuperhero.save();
 > - Each time you save an Entity of the same class, a new key and ID is automatically generated in order to keep entities uniqueness in the datastore.
 
 Now run your file. Your three favorite superheroes are now saved in the datastore !
+
+[Display your data](display-data-in-webapp.html){:class="btn"}
