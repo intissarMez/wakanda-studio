@@ -96,7 +96,9 @@ The preview is automatically reloaded after each saving.
 <img src="img/hww-run-helloworld.png"/>
 
 
-[Step 2: Polulate your database](populate-database.html){:class="btn"}
+<div class="navigation-step">
+  <a class="btn next-button" href="populate-database.html">Step 2: Polulate your database <i class="icon-chevron-right"></i></a>
+</div>
 
 ---
 

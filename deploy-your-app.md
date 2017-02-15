@@ -22,4 +22,7 @@ You can now push, for example, on your `production` branch:
 
 Now, manage your app with Wakanda Cloud:
 
-[Step 6: Deploy on Wakanda cloud](http://docs.wakcloud.com/en/latest/application_dashboard.html){:target="blank_"}{:class="btn"}
+
+<div class="navigation-step">
+  <a class="btn next-button" href="http://docs.wakcloud.com/en/latest/application_dashboard.html">Step 6: Deploy on Wakanda cloud <i class="icon-chevron-right"></i></a>
+</div>

@@ -15,4 +15,6 @@ Then, click on the link to open the generated files:
 
 <img src="img/mobile-build.png" />
 
-[Step 6: Deploy on your server](deploy-your-app.html){:class="btn"}
+<div class="navigation-step">
+  <a class="btn next-button" href="deploy-your-app.html">Step 6: Deploy on your server <i class="icon-chevron-right"></i></a>
+</div>
