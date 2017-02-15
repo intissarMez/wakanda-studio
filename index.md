@@ -57,7 +57,7 @@ layout: default
       You always have the full picture right before your eyes and avoid mistakes !
     </p>
     <p>
-      <a class="btn" href="populate-database.html">Design your Data Model »</a>
+      <a class="btn" href="populate-database.html">Design your Data Model</a>
     </p>
   </div>
 
@@ -82,7 +82,7 @@ layout: default
       Learn how to display datastore data in your *Hello World* app in a minute !
     </p>
     <p>
-      <a class="btn" href="display-data-in-webapp.html">Display your data »</a>
+      <a class="btn" href="display-data-in-webapp.html">Display your data</a>
     </p>
   </div>
 
@@ -110,7 +110,7 @@ layout: default
       You can build your mobile app for iOS and Android from Wakanda Studio, it takes just one click!
     </p>
     <p>
-      <a class="btn" href="build-mobile-app.html">Generate your App »</a>
+      <a class="btn" href="build-mobile-app.html">Generate your App</a>
     </p>
   </div>
 </div>
@@ -132,7 +132,7 @@ layout: default
       Deploy your App on your Wakanda Server in one-click!
     </p>
      <p>
-       <a class="btn" href="deploy-your-app.html">Deploy to Your Server »</a>
+       <a class="btn" href="deploy-your-app.html">Deploy to Your Server</a>
      </p>
   </div>
 </div>
@@ -158,7 +158,7 @@ layout: default
         <li>Ownership transfer when application is in production</li>
       </ul>
     <p>
-      <a class="btn" href="deploy-your-app.html">Deploy to the Cloud »</a>
+      <a class="btn" href="deploy-your-app.html">Deploy to the Cloud</a>
     </p>
   </div>
 </div>
@@ -183,7 +183,7 @@ layout: default
 
     </p>
     <p>
-      <a class="btn" href="http://wakanda.github.io/wakanda-server-doc/#/doc/data/server-side">Code your Server-Side Logic »</a>
+      <a class="btn" href="http://wakanda.github.io/wakanda-server-doc/#/doc/data/server-side">Code your Server-Side Logic</a>
     </p>
   </div>
 </div>
