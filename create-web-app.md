@@ -95,9 +95,6 @@ The preview is automatically reloaded after each saving.
 
 <img src="img/hww-run-helloworld.png"/>
 
-<img src="http://wakanda.github.io/angular-wakanda/images/angular-wakanda.png" />
-
-Wakanda integrates the Angular2 framework.
 
 [Step 2: Polulate your database](populate-database.html){:class="btn"}
 
