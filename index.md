@@ -164,7 +164,7 @@ layout: default
       Get fully managed servers with ownership transfer when application is in production.
       </p>
     <p>
-      <a class="btn" href="deploy-your-app.html">Deploy to Wakanda Cloud</a>
+      <a class="btn" href="http://docs.wakcloud.com/en/latest/getting_started.html">Deploy to Wakanda Cloud</a>
     </p>
   </div>
 </div>
