@@ -11,10 +11,10 @@ entries:
 
  - title: Server-side
    pages:
-   - title: "Generate your datamodel visually"
+   - title: "Generate your datamodel"
      url: populate-database.html
 
-   - title: "Display your data in your angular web app"
+   - title: "Display your data"
      url: display-data-in-webapp.html
 
  - title: Publish your App
