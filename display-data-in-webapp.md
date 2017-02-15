@@ -54,4 +54,4 @@ Open `web/index.html` and add the following code into the body to display the li
 <img src="img/display-data-final.png" />
 
 
-[Step 5: Build your mobile app]build-mobile-app.html
+[Step 5: Build your mobile app](build-mobile-app.html){:class="btn"}
