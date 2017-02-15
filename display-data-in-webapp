@@ -30,7 +30,7 @@ A controller `HomeController`is already created in the template.
 Add the following code in the controller:
 
 ```javascript
-      ds.Superhero.$query().$promise.then(function(response) {
+      ds.Superhero.$query({orderBy:ID,pageSize:3}).$promise.then(function(response) {
          $scope.favoriteSuperheroes = response.result;
        });
 ```
