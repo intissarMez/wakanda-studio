@@ -73,10 +73,26 @@ Click on the _Run Page_ toolbar button:
 <img src="img/web-app-creation.png" />
 
 
-
+<img src="img/hww-run-template.png" />
 
 
 ## Step 4: Code your Angular2 application
+
+Let's have a look to our project structure : the src folder is the classical Angular2 project structure. [More info here](http://ionicframework.com/docs/v2/setup/tutorial/project-structure/ "ionic tutorial").
+
+A simple change in `web/src/app/app.component.html` and I have my **HelloWorld** done.
+
+To make it more visual, you can change the header background color in its scss file `web/src/app/appcomponent.scss` by adding:
+
+```css
+header{
+  background-color:#f0f8ff
+} 
+```
+
+The preview is automatically reloaded after each saving.
+
+<img src="img/hw-colored-preview.png"/>
 
 <img src="http://wakanda.github.io/angular-wakanda/images/angular-wakanda.png" />
 
