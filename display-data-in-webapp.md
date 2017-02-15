@@ -1,4 +1,4 @@
-# Display the list of your data in your web app via AngularJS
+# Display your data in your web app via AngularJS
 
 Wakanda's client connector Angular-Wakanda provides a full integration of the backend to the frontend. 
 
