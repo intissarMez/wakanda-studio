@@ -191,7 +191,7 @@ layout: default
 
     </p>
     <p>
-      <a class="btn" href="http://wakanda.github.io/wakanda-server-doc/#/doc/data/server-side">Code your Server-Side Logic</a>
+      <a class="btn" href="http://wakanda.github.io/wakanda-server-doc/#/doc/data/server-side">Learn more</a>
     </p>
   </div>
 </div>
