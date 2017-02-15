@@ -107,7 +107,7 @@ layout: default
       Now that you have developed and tested your mobile app, it's time to publish it to Apple App Store and Google Play.
     </p>
     <p>
-      You can build your mobile app for iOS and Android from Wakanda Studio, it takes just one click!
+      You can build your mobile app for iOS and Android from Wakanda Studio, it takes just one click !
     </p>
     <p>
       <a class="btn" href="build-mobile-app.html">Generate your App</a>
