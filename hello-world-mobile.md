@@ -112,4 +112,4 @@ Open the _Run_ dropdown and select the device to run on:
 <img src="img/mobile-run-devices.png" />
 
 
-[Go to step 2](create-web-app.html#web-app-creation){:class="btn"}
+[Web Hello world](create-web-app.html#web-app-creation){:class="btn"}
