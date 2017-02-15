@@ -110,7 +110,7 @@ layout: default
       You can build your mobile app for iOS and Android from Wakanda Studio, it takes just one click!
     </p>
     <p>
-      <a class="btn" href="create-mobile-app.html#build-your-app">Generate your App »</a>
+      <a class="btn" href="build-mobile-app.html">Generate your App »</a>
     </p>
   </div>
 </div>
