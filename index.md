@@ -12,7 +12,7 @@ layout: default
       <div class="head small"><span class="label">Ionic 1 or 2</span></div>
       <div class="content">
         <i class="icon-ionic icon-5x icon-circle border-lg"></i>
-        <h3>For the Mobile</h3>
+        <h3>Mobile app</h3>
         <p>Discover Wakanda workflow for mobile apps</p>
         <a href="hello-world-mobile.html" class="btn btn-default">Code your first Mobile App</a>
       </div>
@@ -24,7 +24,7 @@ layout: default
       <div class="head small"><span class="label">Angular 1 or 2</span></div>
       <div class="content">
         <i class="icon-angular icon-5x icon-circle"></i>
-        <h3>For the Web</h3>
+        <h3>Web App</h3>
         <p>Discover Wakanda workflow for web apps</p>
         <a href="create-web-app.html#web-app-creation" class="btn btn-default">Code your first Web App</a>
       </div>
