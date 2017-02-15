@@ -24,5 +24,5 @@ Now, manage your app with Wakanda Cloud:
 
 
 <div class="navigation-step">
-  <a class="btn next-button" href="http://docs.wakcloud.com/en/latest/application_dashboard.html">Step 6: Deploy on Wakanda cloud <i class="icon-chevron-right"></i></a>
+  <a class="btn next-button" href="http://docs.wakcloud.com/en/latest/getting_started.html">Step 6: Deploy on Wakanda cloud <i class="icon-chevron-right"></i></a>
 </div>
