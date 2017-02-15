@@ -148,17 +148,13 @@ layout: default
   <div class="col-md-8">
     <h3>Step 6: Deploy to Wakanda Cloud</h3>
     <p>
-      Ready for production? Get fully managed servers with Wakanda Cloud:
+      Ready for production? 
       </p>
-      <ul>
-        <li>One dashboard to monitor and manage all your Wakanda servers</li>
-        <li>Instant Server instance provisioning</li>
-        <li>Access rights with group and user management</li>
-        <li>Automated backup and 24x7 monitoring</li>
-        <li>Ownership transfer when application is in production</li>
-      </ul>
+      <p>
+      Get fully managed servers with ownership transfer when application is in production.
+      </p>
     <p>
-      <a class="btn" href="deploy-your-app.html">Deploy to the Cloud</a>
+      <a class="btn" href="deploy-your-app.html">Deploy to Wakanda Cloud</a>
     </p>
   </div>
 </div>
@@ -222,16 +218,12 @@ layout: default
   <div class="col-md-8">
     <h3>Manage scalabality</h3>
     <p>
-      By default, Wakanda handles user sessions and ensures :
-       </p>
-      <ul>
-        <li>the creation and in-memory persistence of session information</li>
-        <li>the auto-removal of expired sessions</li>
-        <li>the handling of SSJS session APIs</li>
-      </ul>
-    <p>
-      In your app, you might need to have full control over those aspects.
-    </p>
+      By default, Wakanda handles user sessions. 
+     </p> 
+     <p>
+      It ensures the creation and in-memory persistence of session information,
+       the auto-removal of expired sessions, the handling of SSJS session APIs
+     </p>
     <p><a class="btn" href="http://wakanda.github.io/wakanda-server-doc/#/doc/authentication/custom-session-management" target="_blank">Learn how</a>
     </p>
   </div>
