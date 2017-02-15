@@ -78,7 +78,7 @@ Click on the _Run Page_ toolbar button:
 
 ## Step 4: Code your Angular2 application
 
-Let's have a look to our project structure : the src folder is the classical Angular2 project structure. [More info here](http://ionicframework.com/docs/v2/setup/tutorial/project-structure/ "ionic tutorial").
+Let's have a look to our project structure : the src folder is the classical Angular2 project structure. [More info here](https://angular.io/docs/ts/latest/cli-quickstart.html "Angular CLI").
 
 A simple change in `web/src/app/app.component.html` and I have my **HelloWorld** done.
 
