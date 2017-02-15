@@ -112,4 +112,4 @@ Open the _Run_ dropdown and select the device to run on:
 <img src="img/mobile-run-devices.png" />
 
 
-[Getting Started](index.html){:class="btn"}
+[Go to step 2](index.html){:class="btn"}
