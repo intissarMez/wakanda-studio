@@ -65,9 +65,7 @@ Click on the _Run Page_ toolbar button:
 > **TIPS**:  
 
 > 1. To open your application in your default browser, set this preference via _Run Page_ dropdown
-
 > 2. Customize the panels: open the right panel from the toolbar toggles
-
 > 3. You can move the web preview on the right panel
 
 
@@ -77,7 +75,7 @@ Click on the _Run Page_ toolbar button:
 
 
 
-## Code your Angularb2 application
+## Code your Angular2 application
 
 <img src="http://wakanda.github.io/angular-wakanda/images/angular-wakanda.png" />
 
