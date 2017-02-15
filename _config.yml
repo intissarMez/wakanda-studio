@@ -16,7 +16,7 @@ encoding: utf-8
 defaults:
   -
     values:
-      layout: "index"
+      layout: "default"
 exclude: [
 .git,
 .gitignore,
