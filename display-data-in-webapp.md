@@ -52,3 +52,6 @@ Open `web/index.html` and add the following code into the body to display the li
         </div>
 ```
 <img src="img/display-data-final.png" />
+
+
+[Step 5: Build your mobile app]build-mobile-app.html
