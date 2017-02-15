@@ -115,11 +115,24 @@ header {
 h2{
   font-weight: 600;
 }
-
+.hidden{
+  display: none;
+}
 .btn{
   padding: 15px !important;
   @include font-size(15px);
   margin: 0 !important;
+  color: white !important;
+  background-color: $square-desc !important;
+  &:hover{
+    background-color: $base-green !important;
+  }
+}
+.social-media ul li{
+  @media (max-width: 992px) {
+    float: left;
+    margin: 10px;
+  }
 }
 .item{
   margin-bottom: 20px;
@@ -149,20 +162,6 @@ h2{
     }
   }
 }
-
-.btn{
-  color: white !important;
-  background-color: $square-desc !important;
-  &:hover{
-    background-color: $base-green !important;
-  }
-}
-.social-media ul li{
-  @media (max-width: 992px) {
-    float: left;
-    margin: 10px;
-  }
-}
 #mc_embed_signup_scroll{
   label{
     font-weight: 600;
@@ -175,5 +174,37 @@ h2{
   }
   @media (max-width: 992px) {
     text-align: center;
+  }
+}
+.feedback {
+    text-align: center;
+    background-color: $square-desc;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    .desc{
+      margin-right: 10px;
+      @include font-size(16px);
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+    .btn{
+      color: white !important;
+      background-color: transparent !important;
+      border: 2px solid white;
+      @include border-radius(0);
+      cursor: pointer;
+      padding: 5px 10px !important;
+      &:hover{
+        background-color: white !important;
+        color: $square-desc !important;
+      }
+    }
+}
+
+.disqus_thread {
+  background-color: $square-desc;
+  header{
+    display: none;
   }
 }
