@@ -3,7 +3,7 @@
 
 # Hello World: your first Web App with Angular2
 
-## Install Wakanda
+## Step 1 : Install Wakanda
 
 First, download and install **Wakanda Community Edition**
 
@@ -13,7 +13,8 @@ First, download and install **Wakanda Community Edition**
 
 Now we can start our **HelloWorldWeb** project.  
 
-## Choose : mobile or web app ?
+## Step 2: Choose : mobile or web app ?
+
 We can choose the kind of app we want to create : mobile, web or both.
 
 Here we want to create an *Angular2 web app*.
@@ -53,7 +54,7 @@ You have 3 folders at the root of your project:
 For our **HelloWorldWeb** we’re going to work first in the `web` folder.
 
 
-## Run your web application
+## Step 3: Run your web application
 
 First let's have a look to our web template.
 
@@ -75,7 +76,7 @@ Click on the _Run Page_ toolbar button:
 
 
 
-## Code your Angular2 application
+## Step 4: Code your Angular2 application
 
 <img src="http://wakanda.github.io/angular-wakanda/images/angular-wakanda.png" />
 
