@@ -206,7 +206,7 @@ layout: default
       A JavaScript Abstract Layer to interact with MySQL DB in JavaScript (No SQL) and all the data exposed via REST API.
     </p>
     <p>
-      <a class="btn" href="http://doc.wakanda.org/home2.en.html#/MySQL-Connector-Pro/MySQL-Connector-Pro.100-1168858.en.html">Learn more »</a>
+      <a class="btn" href="http://doc.wakanda.org/home2.en.html#/MySQL-Connector-Pro/MySQL-Connector-Pro.100-1168858.en.html">Learn more</a>
     </p>
   </div>
 </div>
@@ -232,7 +232,7 @@ layout: default
     <p>
       In your app, you might need to have full control over those aspects.
     </p>
-    <p><a class="btn" href="http://wakanda.github.io/wakanda-server-doc/#/doc/authentication/custom-session-management" target="_blank">Learn how »</a>
+    <p><a class="btn" href="http://wakanda.github.io/wakanda-server-doc/#/doc/authentication/custom-session-management" target="_blank">Learn how</a>
     </p>
   </div>
 </div>
