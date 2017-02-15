@@ -53,22 +53,38 @@
 .icon-circle{
     border: 1px solid;
     @include border-radius(50%);
-    &.icon-7x{
+    &.icon-5x{
         border: 3px solid;
-        padding: 10px;
+        padding: 20px;
     }
 }
+
 
 
 
 .icon-angular:before {
   content: "\e902";
 }
-.icon-ionic:before {
+.icon-cloud:before {
+  content: "\e903";
+}
+.icon-database:before {
+  content: "\e904";
+}
+.icon-datamodel:before {
   content: "\e905";
 }
-.icon-map-marker:before {
+.icon-ionic:before {
   content: "\e906";
+}
+.icon-mobile:before {
+  content: "\e907";
+}
+.icon-scalability:before {
+  content: "\e908";
+}
+.icon-wakanda-cloud:before {
+  content: "\e909";
 }
 .icon-chevron-right:before {
   content: "\e900";

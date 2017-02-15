@@ -11,7 +11,7 @@ layout: default
     <div class="square">
       <div class="head small"><span class="label">Ionic 1 or 2</span></div>
       <div class="content">
-        <i class="icon-ionic icon-7x icon-circle border-lg"></i>
+        <i class="icon-ionic icon-5x icon-circle border-lg"></i>
         <h3>For the Mobile</h3>
         <p>Discover Wakanda workflow for mobile apps</p>
         <a href="hello-world-mobile.html" class="btn btn-default">Code your first Mobile App</a>
@@ -23,7 +23,7 @@ layout: default
     <div class="square">
       <div class="head small"><span class="label">Angular 1 or 2</span></div>
       <div class="content">
-        <i class="icon-angular icon-7x icon-circle"></i>
+        <i class="icon-angular icon-5x icon-circle"></i>
         <h3>For the Web</h3>
         <p>Discover Wakanda workflow for web apps</p>
         <a href="create-web-app.html#web-app-creation" class="btn btn-default">Code your first Web App</a>
@@ -40,9 +40,11 @@ layout: default
 
     <div class="square">
       <div class="head small"><span class="label">Data Model Editor</span></div>
-      <a class="action" href="populate-database.html">
-        <div class="stepPic designData"></div>
-      </a>
+      <div class="content">
+        <a href="populate-database.html">
+          <i class="icon-datamodel icon-5x icon-circle"></i>
+        </a>
+      </div>
     </div>
   </div>
   <div class="col-md-8">
@@ -68,9 +70,11 @@ layout: default
 
     <div class="square">
       <div class="head small"><span class="label">Data Model Editor</span></div>
-      <a class="action" href="populate-database.html">
-        <div class="stepPic designData"></div>
-      </a>
+      <div class="content">
+        <a href="populate-database.html">
+          <i class="icon-datamodel icon-5x icon-circle"></i>
+        </a>
+      </div>
     </div>
   </div>
   <div class="col-md-8">
@@ -96,9 +100,11 @@ layout: default
 
     <div class="square">
       <div class="head small"><span class="label">Cordova</span></div>
-      <a class="action" href="create-mobile-app.html#build-your-app">
-        <div class="stepPic mobileApp"></div>
-      </a>
+      <div class="content">
+        <a href="create-mobile-app.html#build-your-app">
+          <i class="icon-mobile icon-5x icon-circle"></i>
+        </a>
+      </div>
     </div>
   </div>
   <div class="col-md-8">
@@ -118,9 +124,11 @@ layout: default
   <div class="col-md-4">
     <div class="square">
       <div class="head small"><span class="label">On-prem</span></div>
-      <a class="action" href="deploy-your-app.html">
-        <div class="stepPic deployServer"></div>
-      </a>
+      <div class="content">
+        <a href="deploy-your-app.html">
+          <i class="icon-cloud icon-5x icon-circle"></i>
+        </a>
+      </div>
     </div>
   </div>
   <div class="col-md-8">
@@ -140,9 +148,11 @@ layout: default
   <div class="col-md-4">
     <div class="square">
       <div class="head small"><span class="label">Cloud Platform</span></div>
-      <a class="action" href="deploy-your-app.html">
-        <div class="stepPic wakCloud"></div>
-      </a>
+      <div class="content">
+        <a href="deploy-your-app.html">
+          <i class="icon-wakanda-cloud icon-5x icon-circle"></i>
+        </a>
+      </div>
     </div>
   </div>
   <div class="col-md-8">
@@ -165,9 +175,11 @@ layout: default
 
     <div class="square">
       <div class="head small"><span class="label">JavaScript Backend</span></div>
-      <a class="action" href="create-mobile-app.html#build-your-app">
-        <div class="stepPic mobileApp"></div>
-      </a>
+      <div class="content">
+        <a href="create-mobile-app.html#build-your-app">
+          <i class="icon-mobile icon-5x icon-circle"></i>
+        </a>
+      </div>
     </div>
   </div>
   <div class="col-md-8">
@@ -187,10 +199,12 @@ layout: default
   <div class="col-md-4">
     <div class="square">
       <div class="head"><span class="label">Enterprise  Edition</span></div>
-      <a class="action" href="http://doc.wakanda.org/home2.en.html#/MySQL-Connector-Pro/MySQL-Connector-Pro.100-1168858.en.html"
+      <div class="content">
+        <a href="http://doc.wakanda.org/home2.en.html#/MySQL-Connector-Pro/MySQL-Connector-Pro.100-1168858.en.html"
         target="_blank">
-        <div class="stepPic connectDB"></div>
-      </a>
+          <i class="icon-database icon-5x icon-circle"></i>
+        </a>
+      </div>
     </div>
   </div>
   <div class="col-md-8">
@@ -210,9 +224,11 @@ layout: default
   <div class="col-md-4">
     <div class="square">
       <div class="head small"><span class="label">Enterprise  Edition</span></div>
-      <a class="action" href="http://wakanda.github.io/wakanda-server-doc/#/doc/authentication/custom-session-management" target="_blank">
-        <div class="stepPic scalability"></div>
-      </a>
+      <div class="content">
+        <a href="http://wakanda.github.io/wakanda-server-doc/#/doc/authentication/custom-session-management" target="_blank">
+          <i class="icon-scalability icon-5x icon-circle"></i>
+        </a>
+      </div>
     </div>
   </div>
   <div class="col-md-8">

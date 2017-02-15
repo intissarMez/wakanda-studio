@@ -137,6 +137,15 @@ h2{
         color: $square-desc;
         @include font-size(15px);
       }
+      a{
+        display: block;
+        width: 100%;
+        color: inherit;
+        &:hover{
+          color: inherit;
+          text-decoration: inherit;
+        }
+      }
     }
   }
 }
