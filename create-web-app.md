@@ -63,19 +63,18 @@ Click on the _Run Page_ toolbar button:
 
 
 > **TIPS**:  
-> -  Customize the panels
 
-> - Open the right panel from the toolbar toggles:
+> 1. To open your application in your default browser, set this preference via _Run Page_ dropdown
 
-<img src="img/panel-toggles.png" />
+> 2. Customize the panels: open the right panel from the toolbar toggles
 
-> - You can move the web preview on the right panel:
+> 3. You can move the web preview on the right panel
+
 
 <img src="img/web-app-creation.png" />
 
-> - To open your application in your default browser, set this preference via _Run Page_ dropdown:
 
-<img src="img/web-run-dropdown.png" />
+
 
 
 ## Code your Angularb2 application
@@ -84,7 +83,7 @@ Click on the _Run Page_ toolbar button:
 
 Wakanda integrates the Angular2 framework.
 
-[Learn more »](http://wakanda.github.io/angular-wakanda/){:target="_blank"}{:class="btn"}
+[Learn more](http://wakanda.github.io/angular-wakanda/){:target="_blank"}{:class="btn"}
 
 ---
 
