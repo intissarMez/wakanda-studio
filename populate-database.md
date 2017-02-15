@@ -65,4 +65,4 @@ favoriteSuperhero.save();
 
 Now run your file. Your three favorite superheroes are now saved in the datastore !
 
-[Display your data](display-data-in-webapp.html){:class="btn"}
+[Step 3: Display your data](display-data-in-webapp.html){:class="btn"}
