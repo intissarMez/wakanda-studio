@@ -11,16 +11,19 @@ What about saying "Hello !" to your favorite superheros ? Let's populate the dat
 First, we're going to create our datamodel.
 
 To manage your data easily and quickly, Wakanda provides a **Visual Data Editor**. 
+
 It will allow you to create your classes, and their properties visually.
 
 <img src="img/hw-access-data-model.png" />
 
-1 - Create a `Superhero` and a `Movie`dataclasses, give them respectively the attribute `name` and `title` of type `string` and save.
+1 - Create a `Superhero` and a `Movie`dataclasses. 
+
+Give them respectively the attribute `name` and `title` of type `string` and save.
 
 <img src="img/model-designer-newdataclass.png" />
 
 
-2 - Add an attribute `movie` to `Superhero`dataclass and give it the type `Movie`
+2 - Add an attribute `movie` to `Superhero`dataclass and give it the type `Movie`.
 The relationship between the two classes is automatically displayed in the model
 
 <img src="img/model-designer-addrelationship.png" />
