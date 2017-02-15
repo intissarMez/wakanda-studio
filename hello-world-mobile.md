@@ -111,5 +111,6 @@ Open the _Run_ dropdown and select the device to run on:
 
 <img src="img/mobile-run-devices.png" />
 
-
-[Web Hello world](create-web-app.html#web-app-creation){:class="btn"}
+<div class="navigation-step">
+  <a class="btn next-button" href="create-web-app.html#web-app-creation">Next Step : Web Hello world <i class="icon-chevron-right"></i></a>
+</div>

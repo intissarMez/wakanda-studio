@@ -206,3 +206,23 @@ h2{
     display: none;
   }
 }
+
+.navigation-step{
+  position: relative;
+  margin-left: 0px;
+  margin-right: 40px;
+  min-height: 50px;
+  .next-button{
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color: $navigation-btn-bg !important;
+    color: $navigation-btn !important;
+    font-weight: 600;
+    padding: 10px 30px !important;
+    &:hover{
+      color: $navigation-btn-bg !important;
+      background-color: $navigation-btn !important;
+    }
+  }
+}
