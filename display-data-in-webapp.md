@@ -30,7 +30,7 @@ Open its existing controller file `web/app/controllers/home.js`. That's where we
 A controller `HomeController`is already created in the template.
 [$wakandaManager](https://wakanda.github.io/angular-wakanda/#/doc/api-reference/wakanda-manager) is a service provided by Wakanda. We're going to use is to access the datastore ds (it's similar to the $http angular service)
 
-## 2 - Access the datas
+## 2 - Access the data
 
 Add the following code in the controller:
 
