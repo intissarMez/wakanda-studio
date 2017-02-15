@@ -97,7 +97,7 @@ The preview is automatically reloaded after each saving.
 
 
 <div class="navigation-step">
-  <a class="btn next-button" href="populate-database.html">Step 2: Polulate your database <i class="icon-chevron-right"></i></a>
+  <a class="btn next-button" href="populate-database.html">Step 2: Populate your database <i class="icon-chevron-right"></i></a>
 </div>
 
 ---
