@@ -69,7 +69,7 @@ layout: default
   <div class="col-md-4">
 
     <div class="square">
-      <div class="head small"><span class="label">Data Model Editor</span></div>
+      <div class="head small"><span class="label">Angular-Wakanda Connector</span></div>
       <div class="content">
         <a href="populate-database.html">
           <i class="icon-datamodel icon-5x icon-circle"></i>
