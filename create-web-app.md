@@ -99,7 +99,7 @@ The preview is automatically reloaded after each saving.
 
 Wakanda integrates the Angular2 framework.
 
-[Learn more](http://wakanda.github.io/angular-wakanda/){:target="_blank"}{:class="btn"}
+[Go to step 2](http://wakanda.github.io/angular-wakanda/){:target="_blank"}{:class="btn"}
 
 ---
 
