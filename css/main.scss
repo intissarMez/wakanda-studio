@@ -221,8 +221,7 @@ h2{
     font-weight: 600;
     padding: 10px 30px !important;
     &:hover{
-      color: $navigation-btn-bg !important;
-      background-color: $navigation-btn !important;
+      background-color: $navigation-btn-bg-hover !important;
     }
   }
 }
