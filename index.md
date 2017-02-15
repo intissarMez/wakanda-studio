@@ -4,7 +4,7 @@ layout: default
 ---
 
 <h1 id="next-steps">Getting Started with Wakanda</h1>
-<h2>1. « Hello World! »</h2>
+<h2>Step 1: « Hello World! »</h2>
 <div class="row item">
   <div class="col-md-4">
 
