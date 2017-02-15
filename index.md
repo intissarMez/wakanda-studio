@@ -72,7 +72,7 @@ layout: default
       <div class="head small"><span class="label">Data Model Editor</span></div>
       <div class="content">
         <a href="populate-database.html">
-          <i class="icon-datamodel icon-5x icon-circle"></i>
+          <i class="icon-angular icon-5x icon-circle"></i>
         </a>
       </div>
     </div>
