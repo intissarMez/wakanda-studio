@@ -112,5 +112,5 @@ Open the _Run_ dropdown and select the device to run on:
 <img src="img/mobile-run-devices.png" />
 
 <div class="navigation-step">
-  <a class="btn next-button" href="populate-database.html">Step 2 : Populate your database <i class="icon-chevron-right"></i></a>
+  <a class="btn next-button" href="populate-database.html">Next step: Populate your database <i class="icon-chevron-right"></i></a>
 </div>
