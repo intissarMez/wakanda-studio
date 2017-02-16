@@ -4,7 +4,7 @@ layout: default
 ---
 
 <h1 id="next-steps">Getting Started with Wakanda</h1>
-<h2>Step 1: « Hello World ! »</h2>
+<h2>Step 1: « Hello World! »</h2>
 <div class="row item">
   <div class="col-md-4">
 
@@ -32,7 +32,7 @@ layout: default
   </div>
 </div>
 
-<h2>Server-side</h2>
+<h2>Step 2: Server-side</h2>
 
 
 <div class="row item">
@@ -48,7 +48,7 @@ layout: default
     </div>
   </div>
   <div class="col-md-8">
-    <h3>Step 2: Generate your datamodel visually</h3>
+    <h3>Generate your datamodel visually</h3>
     <p>
       Instead of coding your data class, you can generate them visually.
     </p>
@@ -78,7 +78,7 @@ layout: default
     </div>
   </div>
   <div class="col-md-8">
-    <h3>Step 3: Display your data in your angular web app</h3>
+    <h3>Display your data in your angular web app</h3>
     <p>
       You can access your datastore from front easily with our angular-wakanda API.
     </p>
@@ -94,7 +94,7 @@ layout: default
 
 
 
-<h2>Publish your App</h2>
+<h2>Step 3: Publish your App</h2>
 <div class="row item">
   <div class="col-md-4">
 
@@ -108,7 +108,7 @@ layout: default
     </div>
   </div>
   <div class="col-md-8">
-    <h3>Step 4: Build your mobile app</h3>
+    <h3>Build your mobile app</h3>
     <p>
       Now that you have developed and tested your mobile app, it's time to publish it to Apple App Store and Google Play.
     </p>
@@ -132,7 +132,7 @@ layout: default
     </div>
   </div>
   <div class="col-md-8">
-    <h3>Step 5: Deploy to Your Server</h3>
+    <h3>Deploy to Your Server</h3>
     <p>
       Wakanda Server supports Linux, Windows and MacOS. Install it wherever you want!
     </p>
@@ -156,7 +156,7 @@ layout: default
     </div>
   </div>
   <div class="col-md-8">
-    <h3>Step 6: Deploy to Wakanda Cloud</h3>
+    <h3>Deploy to Wakanda Cloud</h3>
     <p>
       Ready for production? 
       </p>
