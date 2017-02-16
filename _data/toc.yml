@@ -1,5 +1,5 @@
 entries:
- - title: Getting Started
+ - title: Hello World
 
    pages:
 
@@ -34,5 +34,5 @@ entries:
      url: http://wakanda.github.io/wakanda-server-doc/?_ga=1.144688306.662619326.1486638840#/doc/data/server-side
    - title: "Connect your MySQL DB"
      url: http://doc.wakanda.org/home2.en.html#/MySQL-Connector-Pro/MySQL-Connector-Pro.100-1168858.en.html
-   - title: Manage scalabality
+   - title: "Manage scalabality"
      url: http://wakanda.github.io/wakanda-server-doc/?_ga=1.189719596.662619326.1486638840#/doc/authentication/custom-session-management
