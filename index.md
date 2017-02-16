@@ -169,7 +169,7 @@ layout: default
   </div>
 </div>
 
-<h2>Go further </h2>
+<h2>Step 4: Go further </h2>
 <div class="row item">
   <div class="col-md-4">
 
