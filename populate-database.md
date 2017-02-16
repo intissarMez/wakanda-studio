@@ -64,11 +64,11 @@ new ds.Superhero({name:"Wonder Woman"}).save();
 > - The JSON saved are not related to the `var favoriteSuperhero` in the datastore, nor in your front-end calls.
 
 
-Run your file. Then go to the databrowser to see the result in the main menu (Backend > Data Browser)
-
-<img src="img/model-designer-databrowser.png" />
+Run your file. Then go to the databrowser to see the result in the main menu (Backend > Data Browser).
 
 Your three favorite superheroes are now saved in the datastore !
+
+<img src="img/model-designer-databrowser.png" />
 
 
 <div class="navigation-step">
