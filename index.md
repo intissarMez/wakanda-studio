@@ -4,7 +4,7 @@ layout: default
 ---
 
 <h1 id="next-steps">Getting Started with Wakanda</h1>
-<h2 id="hello_world">Step 1: « Hello World! »</h2>
+<h2 id="hello-world">Step 1: « Hello World! »</h2>
 <div class="row item">
   <div class="col-md-4">
 
@@ -32,7 +32,7 @@ layout: default
   </div>
 </div>
 
-<h2 id="server_side">Step 2: Server-side</h2>
+<h2 id="server-side">Step 2: Server-side</h2>
 
 
 <div class="row item">
@@ -94,7 +94,7 @@ layout: default
 
 
 
-<h2 id="publish_app">Step 3: Publish your App</h2>
+<h2 id="publish-app">Step 3: Publish your App</h2>
 <div class="row item">
   <div class="col-md-4">
 
@@ -169,7 +169,7 @@ layout: default
   </div>
 </div>
 
-<h2 id="go_further">Step 4: Go further </h2>
+<h2 id="go-further">Step 4: Go further </h2>
 <div class="row item">
   <div class="col-md-4">
 

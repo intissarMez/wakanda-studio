@@ -22,7 +22,7 @@
             
             {% for entry in site.data.toc.entries %}
             <li class="nav-group col-lg-12 col-md-4">
-                <a href="#" {% if chapter_title == entry.title %} class="active" {% endif %}>
+                <a href="{{ entry.url }}" {% if chapter_title == entry.title %} class="active" {% endif %}>
                     {{ entry.title }}
                 </a>
                 <ul class="aside-nav {{ entry.class }}">
