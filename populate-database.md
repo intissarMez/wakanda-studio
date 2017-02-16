@@ -25,6 +25,8 @@ Give them respectively the attribute `name` and `title` of type `string` and sav
 
 <img src="img/model-designer-newdataclass1.png" />
 
+> **TIPS**:  
+> - The attribute `ID` is given by default to all dataclasses created. 
 
 2 - Add an attribute `movie` to `Superhero`dataclass and give it the type `Movie`.
 The relationship between the two classes is automatically displayed in the model
