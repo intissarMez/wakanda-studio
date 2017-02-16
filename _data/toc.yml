@@ -1,6 +1,6 @@
 entries:
  - title: Hello World
-   url: index.html
+   url: index.html#hello-world
 
    pages:
 
@@ -11,7 +11,7 @@ entries:
      url: create-web-app.html#web-app-creation
 
  - title: Server-side
-   url: index.html
+   url: index.html#server-side
    pages:
    - title: "Generate your datamodel"
      url: populate-database.html
@@ -20,7 +20,7 @@ entries:
      url: display-data-in-webapp.html
 
  - title: Publish your App
-   url: index.html
+   url: index.html#publish-app
 
    pages:
    - title: "Build your mobile app"
@@ -31,7 +31,7 @@ entries:
      url: deploy-your-app.html
 
  - title: Go further
-   url: index.html
+   url: index.html#go-further
 
    pages:
    - title: "Code your Server-Side Logic"
