@@ -173,6 +173,15 @@ h2{
   @media (max-width: 992px) {
     text-align: center;
   }
+  .button{
+    @include font-size(15px);
+    margin: 0 !important;
+    color: white !important;
+    background-color: $square-desc !important;
+    &:hover{
+      background-color: $base-green !important;
+    }
+  }
 }
 .feedback {
     text-align: center;
