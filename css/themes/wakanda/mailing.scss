@@ -19,13 +19,14 @@
   }
   .email, .mc-inline-error {
     padding: 5px 3px;
-    width: 123px;
+    width: 100%;
   }
   .button {
     background-color:#fbb500;
-    padding:7px 8px;
+    padding: 4px;
     border:none;
     color:#fff;
     cursor: pointer;
+    width: 100%;
   }
 }

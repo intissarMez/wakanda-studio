@@ -6,4 +6,30 @@ $(document).ready(function(){
            $('.disqus_thread').removeClass('hidden'); 
         });
     }
+    /*$(window).scroll(function () {
+        console.log($(this).scrollTop());
+		if ($(this).scrollTop() > 50) {
+			$('.main-nav').addClass("sticky");
+		} else {
+			$('.main-nav').removeClass("sticky");
+		}
+	});*/
+    var $blah = $(".main-nav"),
+        $window = $(window),
+        offset = $blah.offset();
+
+    $window.scroll(function () {
+        if($window.width() >= 992) {
+            if ($window.scrollTop() > offset.top) {
+                $blah.stop().animate({
+                    top: 50
+                });
+            } else {
+                $blah.stop().animate({
+                    top: '180'
+                });
+            }
+        }
+    });
+
 });

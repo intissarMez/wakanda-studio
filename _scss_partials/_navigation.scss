@@ -1,12 +1,10 @@
 .io-header-container{
-  background-color: $light-bg;
   padding: 20px 0;
 }
 .io-header{
   padding: 0;
   height: 66px;
   width: 100%;
-  background-color: $light-bg;
   @media (max-width: 640px){
     margin-bottom: 0;
   }
@@ -53,7 +51,7 @@
 
           &:hover,
           &:focus{
-            box-shadow: 0 0 0 1px $main-color inset;
+            box-shadow: 0 0 0 1px $base-green inset;
           }
         }
       }
@@ -75,7 +73,7 @@
         }
         &:hover,
         &:focus{
-          color: $main-color;
+          color: $base-green;
         }
         &.mobile-nav-trigger{
           border-radius: 4px;
@@ -91,8 +89,8 @@
 
           &:hover,
           &:focus{
-            box-shadow: 0 0 0 2px $main-color inset;
-            color: $main-color;
+            box-shadow: 0 0 0 2px $base-green inset;
+            color: $base-green;
           }
         }
       }
@@ -162,7 +160,7 @@
 
     &:hover,
     &:focus{
-      color: $main-color;
+      color: $base-green;
     }
   }
   ul{
@@ -209,7 +207,7 @@
         &:hover,
         &:focus,
         &:active{
-          color: $main-color;
+          color: $base-green;
         }
       }
     }
