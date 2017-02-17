@@ -70,6 +70,11 @@ nav {
     position: relative !important;
     width: 100%;
   }
+  .download{
+    .btn-default{
+      background-color: $light-green !important;
+    }
+  }
 }
 
 .col-lg-2.page .sticky{
